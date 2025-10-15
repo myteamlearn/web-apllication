@@ -1,0 +1,63 @@
+Frontend
+* A simple web page where users can type and send messages.
+* Messages are sent to the backend server.
+* The message list updates automatically .
+
+Backend
+* Built using Node.js.
+* Receives messages from the Backend.
+* Processes each message.
+* Stores messages temporarily.
+* Provides an endpoint to retrieve all messages.
+
+
+Commands 
+
+1. Update system packages:
+Command -->   sudo apt update && sudo apt upgrade -y
+
+
+2. Install Node.js and npm:
+  Command -->  sudo apt install nodejs npm -y
+
+3. Create project directory and move into it:
+  Command -->  mkdir Frondend 
+
+   
+3.1: Open created new preject directory :
+    Command -->  cd Frontend 
+
+3.2.Create the frontend project file::
+    Command --> vi My_practice.html
+
+4. Create project directory and move into it:
+  Command -->  mkdir Backend 
+
+   
+4.1: Open created new preject directory :
+    Command -->  cd Backend 
+
+4.2.Create the backend project file::ls
+
+    Command --> vi My_practice.js
+
+5. Initialize Node.js project :
+  Command -->    npm init -y
+
+6.and install dependencies:
+  Command -->  npm install express cors
+  
+
+7. Run the backend server:
+ Command -->   node My_practice.js
+
+
+8. Open frontend page directly :
+ Command -->   xdg-open My_practice.html
+
+
+ Output
+
+* Users can see all sent messages on the web page.
+* Each message is shown in Backed.
+* The message list updates every 5 seconds automatically.
